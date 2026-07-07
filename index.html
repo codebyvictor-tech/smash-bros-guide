@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smash Bros Character Guide</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Smash Bros Character Guide</h1>
+            <p>Learn how to play against every character with tips, counters, and strategies</p>
+        </header>
+
+        <nav class="filter-nav">
+            <button class="filter-btn active" data-filter="all">All Characters</button>
+            <button class="filter-btn" data-filter="mario">Mario</button>
+            <button class="filter-btn" data-filter="pokemon">Pokémon</button>
+            <button class="filter-btn" data-filter="zelda">Zelda</button>
+            <button class="filter-btn" data-filter="kirby">Kirby</button>
+            <button class="filter-btn" data-filter="starfox">Star Fox</button>
+            <button class="filter-btn" data-filter="metroid">Metroid</button>
+            <button class="filter-btn" data-filter="sonic">Sonic</button>
+            <button class="filter-btn" data-filter="donkeykong">Donkey Kong</button>
+            <button class="filter-btn" data-filter="fireemblem">Fire Emblem</button>
+            <button class="filter-btn" data-filter="streetfighter">Street Fighter</button>
+            <button class="filter-btn" data-filter="finalfantasy">Final Fantasy</button>
+            <button class="filter-btn" data-filter="castlevania">Castlevania</button>
+            <button class="filter-btn" data-filter="xenoblade">Xenoblade</button>
+            <button class="filter-btn" data-filter="kidicarus">Kid Icarus</button>
+            <button class="filter-btn" data-filter="earthbound">EarthBound</button>
+            <button class="filter-btn" data-filter="animalcrossing">Animal Crossing</button>
+            <button class="filter-btn" data-filter="dlc">DLC</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+        </nav>
+
+            <!-- Mario Section -->
+            <section class="character-section" data-section="mario">
+                <h2 class="section-title">Mario Series</h2>
+                <div class="character-grid" id="mario-grid"></div>
+            </section>
+
+            <!-- Pokémon Section -->
+            <section class="character-section" data-section="pokemon">
+                <h2 class="section-title">Pokémon</h2>
+                <div class="character-grid" id="pokemon-grid"></div>
+            </section>
+
+            <!-- Zelda Section -->
+            <section class="character-section" data-section="zelda">
+                <h2 class="section-title">The Legend of Zelda</h2>
+                <div class="character-grid" id="zelda-grid"></div>
+            </section>
+
+            <!-- Kirby Section -->
+            <section class="character-section" data-section="kirby">
+                <h2 class="section-title">Kirby Series</h2>
+                <div class="character-grid" id="kirby-grid"></div>
+            </section>
+
+            <!-- Star Fox Section -->
+            <section class="character-section" data-section="starfox">
+                <h2 class="section-title">Star Fox</h2>
+                <div class="character-grid" id="starfox-grid"></div>
+            </section>
+
+            <!-- Metroid Section -->
+            <section class="character-section" data-section="metroid">
+                <h2 class="section-title">Metroid</h2>
+                <div class="character-grid" id="metroid-grid"></div>
+            </section>
+
+            <!-- Sonic Section -->
+            <section class="character-section" data-section="sonic">
+                <h2 class="section-title">Sonic the Hedgehog</h2>
+                <div class="character-grid" id="sonic-grid"></div>
+            </section>
+
+            <!-- Street Fighter Section -->
+            <section class="character-section" data-section="streetfighter">
+                <h2 class="section-title">Street Fighter</h2>
+                <div class="character-grid" id="streetfighter-grid"></div>
+            </section>
+
+            <!-- Final Fantasy Section -->
+            <section class="character-section" data-section="finalfantasy">
+                <h2 class="section-title">Final Fantasy</h2>
+                <div class="character-grid" id="finalfantasy-grid"></div>
+            </section>
+
+            <!-- Castlevania Section -->
+            <section class="character-section" data-section="castlevania">
+                <h2 class="section-title">Castlevania</h2>
+                <div class="character-grid" id="castlevania-grid"></div>
+            </section>
+
+            <!-- Xenoblade Section -->
+            <section class="character-section" data-section="xenoblade">
+                <h2 class="section-title">Xenoblade Chronicles</h2>
+                <div class="character-grid" id="xenoblade-grid"></div>
+            </section>
+
+            <!-- Kid Icarus Section -->
+            <section class="character-section" data-section="kidicarus">
+                <h2 class="section-title">Kid Icarus</h2>
+                <div class="character-grid" id="kidicarus-grid"></div>
+            </section>
+
+            <!-- Fire Emblem Section -->
+            <section class="character-section" data-section="fireemblem">
+                <h2 class="section-title">Fire Emblem</h2>
+                <div class="character-grid" id="fireemblem-grid"></div>
+            </section>
+
+            <!-- Donkey Kong Section -->
+            <section class="character-section" data-section="donkeykong">
+                <h2 class="section-title">Donkey Kong</h2>
+                <div class="character-grid" id="donkeykong-grid"></div>
+            </section>
+
+            <!-- EarthBound Section -->
+            <section class="character-section" data-section="earthbound">
+                <h2 class="section-title">EarthBound</h2>
+                <div class="character-grid" id="earthbound-grid"></div>
+            </section>
+
+            <!-- Animal Crossing Section -->
+            <section class="character-section" data-section="animalcrossing">
+                <h2 class="section-title">Animal Crossing</h2>
+                <div class="character-grid" id="animalcrossing-grid"></div>
+            </section>
+
+            <!-- Other Characters Section -->
+            <section class="character-section" data-section="other">
+                <h2 class="section-title">Other Characters</h2>
+                <div class="character-grid" id="other-grid"></div>
+            </section>
+
+            <!-- DLC Section -->
+            <section class="character-section" data-section="dlc">
+                <h2 class="section-title">DLC Characters</h2>
+                <div class="character-grid" id="dlc-grid"></div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Modal for character details -->
+    <div class="modal" id="characterModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="">
+                <div class="modal-info">
+                    <h2 id="modalName"></h2>
+                    
+                    <div class="info-section">
+                        <h3>How to Play Against Them</h3>
+                        <p id="modalCheatsheet"></p>
+                    </div>
+
+                    <div class="info-section">
+                        <h3>Weaknesses</h3>
+                        <ul id="modalWeaknesses"></ul>
+                    </div>
+
+                    <div class="info-section">
+                        <h3>General Tips</h3>
+                        <ul id="modalTips"></ul>
+                    </div>
+
+                    <div class="info-section">
+                        <h3>Characters That Counter Them</h3>
+                        <div id="modalCounters" class="counters-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/characters.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
